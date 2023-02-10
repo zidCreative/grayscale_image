@@ -4,7 +4,7 @@ from PIL import Image
 st.sidebar.image("zidCreative_putih.png")
 
 st.title("Program Konversi gambar Grayscale")
-gamb = st.file_uploader("Upload gambar yang ingin anda konversi", type=['jpg' , 'png' ])
+gamb = st.file_uploader("Upload gambar yang ingin anda konversi", type=['jpg' , 'jpeg', 'png' ])
 
 if gamb is not None :
     fileg = Image.open(gamb)
