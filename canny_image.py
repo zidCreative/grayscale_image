@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-st.sidebar.image("Resources\zidCreative_putih.png")
+st.sidebar.image("zidCreative_putih.png")
 
 st.title("Program Konversi gambar Grayscale")
 gamb = st.file_uploader("Upload gambar yang ingin anda konversi", type=['jpg' , 'png' ])
